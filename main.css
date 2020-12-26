@@ -1,0 +1,159 @@
+﻿
+
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	overflow: hidden;
+}
+img{
+	height: 100%;
+}
+.logo{
+	position: fixed;
+	opacity: 0.7;
+	transition: opacity 0.3s;
+	display: inherit;
+}
+.logo:hover{
+	opacity: 0.8;
+}
+.btn{
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+}
+.btns{
+	height: 40px;
+    width: 40px;
+    position: relative;
+    border-radius: 25px;
+    background: #FFFFFF;
+    margin-top: 10px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.left{
+    margin-right: 20px;
+}
+.right{
+    margin-left: 20px;
+}
+.btns p{
+	color: #000;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+    margin: 0px;
+}
+.bottom{
+	position: fixed;
+	bottom: 10px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.bottom:hover{
+	opacity: 1;
+}
+.header {
+    
+    
+    background-color: rgba(0,0,0,0);
+    height: 52px;
+    width: 100%;
+    line-height: 52px;
+    
+    margin-top: -523px;
+}
+
+.logolike {
+    float: left;
+    width:300px;
+	margin-left: 8px;
+	background:-webkit-linear-gradient(top,#eee,#aaa 50%,#333 51%,#000);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	font:bold 37px/1.231 georgia,sans-serif;
+	text-transform:uppercase;
+
+   
+    color:rgb(1,0.5,1,1)
+    filter: Glowz(Color=#87ca27,Strength=5);
+    line-height: 52px;
+   margin-top: 20px;
+    font-family: "微软雅黑";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ha {
+    height: 52px;
+    width: 1200px;
+    line-height: 52px;
+    margin-top: -19px;
+    
+}
+
+
+ .nav a{
+            font-size: 20px;
+            font-family:"楷体";
+           
+           
+            border-color: rgba(0,0,0,0.5);
+            
+            text-decoration: none;
+            background-color: rgba(0,0,0,0.5);
+            background-size: 100%,100%;
+            color:aliceblue;
+            
+            
+            height: 52px;
+            text-align: center;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            margin-top: 0;
+        }
+       .nav a{
+            display: block;
+        }
+  .plat{
+            display: none;
+            clear: none;
+            filter: Alpha(Opacity=100);
+            
+        }
+        .nav{
+             float: left;
+             margin-left: 0;
+             margin-right: 0;
+             clear: none;
+             width: 15%;
+            
+             height: 52px;
+             
+         }
+        .nav:hover .plat{
+            display: block;
+            clear: both;
+        }
+        .plat li:hover>a{
+            background-color: #BDB76B;
+        }
+        
+        
+  
